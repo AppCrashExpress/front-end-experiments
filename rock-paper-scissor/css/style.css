@@ -1,0 +1,47 @@
+#main {
+    margin: 300px;
+}
+
+#result {
+    text-align: center;
+    padding: 20px
+}
+
+#score {
+    padding: 20px
+}
+
+#score ul {
+    list-style-type: none;
+}
+
+#score li {
+    display: inline;
+    margin: 0px 5px;
+    padding: 0;
+}
+
+li.round-win {
+    background-color: rgba(0, 100, 0, 0.3);
+}
+
+li.round-lose {
+    background-color: rgba(100, 0, 0, 0.3);
+}
+
+li.round-draw {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+#input-buttons {
+    text-align: center;
+}
+
+#input-buttons button {
+    margin: 0px 5px;
+    width: 100px
+}
+
+#end-score {
+    text-align: center;
+}

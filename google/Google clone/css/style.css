@@ -1,0 +1,137 @@
+/*  BEGIN CSS RESET  */
+
+
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  END CSS RESET  */
+
+* {
+    font-family: Arial, sans-serif;
+    font-size: 80%;
+}
+
+#top-bar {
+    background-color: #2D2D2D;
+    overflow: hidden;
+    margin:  0px;
+    border:  6px;
+}
+
+#top-bar ul {
+    margin-left: 5px;
+}
+
+#top-bar li {
+    list-style-type: none;
+    text-decoration: none;
+
+    border: solid #2D2D2D;
+    border-width: 2px 0 0 0;
+    padding: 8px 6px;
+}
+
+#top-bar li:hover {
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
+#top-bar li a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+
+#top-bar li#selected {
+    border: solid rgb(221, 75, 57);
+    border-width: 2px 0 0 0;
+    font-weight: bold;
+}
+
+#top-bar li#selected a {
+    color: #FFF;
+}
+
+#top-bar #left-side li {
+    float: left;
+}
+
+#top-bar #right-side li {
+    float: right;
+}
+
+#main {
+    position: relative;
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+}
+
+#main-image img {
+    display: block;
+    margin: 30px auto;
+}
+
+#search-object {
+    text-align: center;
+    margin: 10px 10px 0 0;
+}
+
+#search-bar {
+    margin-bottom: 4px;
+
+    font-size: 16px;
+    height: 30px;
+    width: 100%;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#search-object button {
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}

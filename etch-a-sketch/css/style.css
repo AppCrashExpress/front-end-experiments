@@ -1,0 +1,30 @@
+:root {
+    --container-width:  500px;
+    --container-height: 500px;
+    --square-amount-row: 4;
+    --square-amount-column: 3;
+}
+
+body {
+    background-color: black;
+}
+
+#grid-container {
+    margin: 200px auto;
+    border: 5px solid transparent;
+    width:  var(--container-width);
+    height: var(--container-height);
+    background-color: black;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(var(--square-amount-row), 1fr);
+    grid-template-columns: repeat(var(--square-amount-column), 1fr);
+    grid-gap: 5px;
+}
+
+.grid-square {
+    margin: 0;
+    border: 0;
+    background-color: white;
+}
